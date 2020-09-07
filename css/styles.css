@@ -1,0 +1,50 @@
+*{
+  font-size: 10px;
+  padding: 0;
+  margin:0;
+  box-sizing: border-box;
+}
+body{
+  width:100%;
+  padding:1rem;
+}
+
+li{
+  text-decoration: none;
+  list-style:none;
+}
+.hidden{
+  display: none;
+}
+h1{
+  text-align: center;
+  color:blue;
+  font-size: 4rem;
+  margin-top: 1rem;
+  margin-bottom: 3.5rem;
+
+}
+
+button{
+  border:none;
+  font-size: 1.5rem;
+  padding: 1rem;
+  margin-top: 1rem;
+}
+
+.listOfFacilities{
+  display: flex;
+  width: 100%;
+  flex-flow: wrap;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+}
+.eachFacility{
+  width:33%;
+  align-self: center;
+  margin-bottom: 2.5rem;
+}
+.eachFacility li{
+  font-size: 2rem;
+}
